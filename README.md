@@ -1,10 +1,10 @@
-# NMFS Open Science Collaborative Resource Book
+# RGovys Collaborative Resource Book
 
-This is an online resource by the NMFS Open Science community. [Read the book](https://nmfs-opensci.github.io/ResourceBook)
+This is an online resource by the RGovys community. [Read the book](https://rgovys.github.io/ResourceBook)
 
 # Attribution
 
-This is a copy of the [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial) developed by Qpenscapes. This particular variant is based off [NMFS Openscapes](https://nmfs-openscapes.github.io)
+This is a copy of the [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial) developed by Qpenscapes. This particular variant is based off [NMFS Open Science](https://nmfs-opensci.github.io/ResourceBook/)
 
 # Can I copy this repo?
 
