@@ -3,9 +3,9 @@ project:
   
 website: 
   page-navigation: true
-  title: "NMFS Open Science Resources" 
-  site-url: "https://nmfs-opensci.github.io/ResourceBook" 
-  repo-url: https://github.com/nmfs-opensci/ResourceBook
+  title: "RGovys Resources" 
+  site-url: "https://rgovys.github.io/ResourceBook" 
+  repo-url: https://github.com/Rgovys/ResourceBook
   repo-actions: [edit, issue]
   favicon: images/favicon.ico  
   
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://rgovys.github.io
+        text: "RGovys"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "nmfs-opensci"
+        href: https://github.com/rgovys
+        text: "rgovys
 
     style: "docked"
     search: true
@@ -37,31 +37,10 @@ website:
         text: Welcome
       - href: content/code_of_conduct.qmd
       - href: content/culture.qmd
-      - href: content/templates.qmd
       - href: content/training.qmd
       - href: content/github_in_gov.qmd
-      - href: content/landing_pages.qmd
-      - href: content/documentation.qmd
+      - href: content/R_in_gov.qmd
       - href: content/licenses_gov.qmd
-      - section: content/best_practices_coding/index.qmd
-        text: Coding Best Practices
-        contents: 
-          - content/best_practices_coding/best_practices_r.qmd
-          - content/best_practices_coding/testing_and_review.qmd
-      - section: content/github/index.qmd
-        text: GitHub
-        contents: 
-          - content/github/best_practices.qmd
-          - content/github/citation.qmd
-          - content/github/actions.qmd
-          - content/github/onboarding_tools.qmd
-          - content/github/secrets.qmd
-      - section: content/project_management/index.qmd
-        text: Project Management
-        contents: 
-          - content/project_management/github_project_boards.qmd 
-      - href: content/508_compliance.qmd
-      - href: content/resources.qmd
 
 format:
   html:
