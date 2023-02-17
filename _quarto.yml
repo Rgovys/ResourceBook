@@ -16,7 +16,7 @@ website:
   sidebar:
     background: "#D9E3E4"
     logo: "https://rgovys.github.io/images/Rgovys-logo.png"
-    favicon: images/openscapes_hex.png
+    favicon: https://github.com/Rgovys/rgovys.github.io/blob/main/images/favicon_io/favicon-32x32.png?raw=true
     pinned: true
     align: center
     tools: 
