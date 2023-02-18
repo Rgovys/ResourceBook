@@ -3,7 +3,7 @@ title: "Resource Book"
 subtitle: "A Compilation of Resources and Experience to Support RGovys"
 ---
 
-<img src="https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png" alt="NMFS Open Science logo" style="float:right;width:50%;"/>
+<img src="images/Rgovys-logo.png" alt="RGovys logo" style="float:right;width:50%;"/>
 
 ## Contributing
 
