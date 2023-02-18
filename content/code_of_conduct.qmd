@@ -8,13 +8,9 @@ Read about why it is important to have code of conduct for your GitHub organizat
 
 ## How to include a code of conduct
 
-### Where to find
-
-The Fisheries Integrated Toolbox has a [Code of Conduct](https://github.com/nmfs-fish-tools/Resources/blob/master/CODE_OF_CONDUCT.md) in its [Resources](https://github.com/nmfs-fish-tools/Resources) repo.  Copy the contents if you want to use it.
-
 ### For a GitHub org
 
-You can have your code of conduct appear appear qutomatically in the side bar of every repo in your org.
+You can have your code of conduct appear automatically in the side bar of every repo in your org.
 
 1. Create a repo called `.github`
 2. Within this create a folder called `.github` (yes it'll be `.github/.github`)
@@ -23,7 +19,6 @@ You can have your code of conduct appear appear qutomatically in the side bar of
 ### For an individual repo
 
 * Add the file `CODE_OF_CONDUCT.md` at the base level in your repo. Note, if you did the above for a GitHub org or our personal GitHub account, you don't need to do for individual repos also.
-* You put this in your repo, here's an example from the [Toolbox](https://github.com/nmfs-fish-tools/SSMSE).
 
 ### pkgdown
 

@@ -1,5 +1,0 @@
----
-title: "GitHub"
----
-
-Here we gives some tips on working efficiently with GitHub.

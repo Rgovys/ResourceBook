@@ -15,8 +15,8 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://rgovys.github.io/images/Rgovys-logo.png"
-    favicon: https://github.com/Rgovys/rgovys.github.io/blob/main/images/favicon_io/favicon-32x32.png?raw=true
+    logo: images/Rgovys-logo.png
+    favicon: images/favicon.png
     pinned: true
     align: center
     tools: 
@@ -25,7 +25,7 @@ website:
         text: "RGovys"
       - icon: github
         href: https://github.com/rgovys
-        text: "rgovys
+        text: "rgovys"
 
     style: "docked"
     search: true
