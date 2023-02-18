@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RGovys Resources - Licenses for Government Work</title>
+<title>RGovys Resources - R in Government</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/R_in_gov.html" rel="prev">
+<link href="../content/licenses_gov.html" rel="next">
+<link href="../content/github_in_gov.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Licenses for Government Work</h1>
+      <h1 class="quarto-secondary-nav-title">R in Government</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -131,12 +132,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/R_in_gov.html" class="sidebar-item-text sidebar-link">R in Government</a>
+  <a href="../content/R_in_gov.html" class="sidebar-item-text sidebar-link active">R in Government</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/licenses_gov.html" class="sidebar-item-text sidebar-link active">Licenses for Government Work</a>
+  <a href="../content/licenses_gov.html" class="sidebar-item-text sidebar-link">Licenses for Government Work</a>
   </div>
 </li>
     </ul>
@@ -148,19 +149,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#licenses" id="toc-licenses" class="nav-link active" data-scroll-target="#licenses">Licenses</a></li>
-  <li><a href="#additional-license-information" id="toc-additional-license-information" class="nav-link" data-scroll-target="#additional-license-information">Additional License information</a></li>
-  <li><a href="#specifying-the-license-for-an-r-package" id="toc-specifying-the-license-for-an-r-package" class="nav-link" data-scroll-target="#specifying-the-license-for-an-r-package">Specifying the license for an R package</a></li>
-  <li><a href="#disclaimers" id="toc-disclaimers" class="nav-link" data-scroll-target="#disclaimers">Disclaimers</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Rgovys/ResourceBook/edit/main/content/licenses_gov.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Rgovys/ResourceBook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Rgovys/ResourceBook/edit/main/content/R_in_gov.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Rgovys/ResourceBook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Licenses for Government Work</h1>
+<h1 class="title d-none d-lg-block">R in Government</h1>
 </div>
 
 
@@ -175,57 +173,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="licenses" class="level2">
-<h2 class="anchored" data-anchor-id="licenses">Licenses</h2>
-<p>Content derived from: https://nmfs-opensci.github.io/ResourceBook/content/licenses_gov.html</p>
-<p>Work of the United States government that is done by US federal employees as part of their official duties is generally <a href="https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works">in the public domain</a> within the United States of America. That means it cannot be copyrighted. (The relevant law is <a href="https://www.law.cornell.edu/uscode/text/17/105">here</a> Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. It is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.</p>
-<p>Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0 is a very broad declaration of public domain</a> while <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3 is explicit about derivative works and how those works must retain an open source license</a>.</p>
-<ul>
-<li>The <a href="https://noaa-fisheries-integrated-toolbox.github.io/">NOAA Fisheries Integrated Toolbox</a> recommends <a href="https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE">GPL-3</a> over CC0-1.0 since the latter is not designed specifically for software. An <a href="https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE.md">additional note</a> is added to clarify that the material is a US Government work. See their <a href="https://github.com/nmfs-fish-tools/Resources">Resources</a> repository.</li>
-<li>Other <a href="https://github.com/NOAAGov/NOAA-Affiliated-Projects">NOAA Affiliated GitHub organizations</a> use a mix of GPL-3 and CC0-1.0.</li>
-<li>USGS uses <a href="https://github.com/usgs/best-practices/blob/master/LICENSE.md">CC0-1.0 License + additional info</a></li>
-<li>EPA seems to use CC0-1.0 License, e.g.&nbsp;<a href="https://github.com/USEPA/useeior">useeior</a></li>
-<li>CISA also seems to use CC0-1.0 License, e.g.&nbsp;<a href="https://github.com/cisagov/Sparrow#license">Sparrow</a></li>
-<li>Dept of Labor also uses CC0-1.0 License + additional info, e.g.&nbsp;<a href="https://github.com/USDepartmentofLabor/ableist-language-detector/blob/main/LICENSE.md">ableist language app</a></li>
-<li>NASA uses <a href="https://github.com/nasa/astrobee/blob/master/LICENSE">Apache 2.0</a> mostly</li>
-<li>GSA uses <a href="https://github.com/18F/fedramp-data#public-domain">CC0-1.0 License</a></li>
-<li>I (Eli Holmes) use <a href="https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md">CC0-1.0</a> with a note at the top that the work is a US federal government work by US federal employees as part of their official duties.</li>
-</ul>
-</section>
-<section id="additional-license-information" class="level2">
-<h2 class="anchored" data-anchor-id="additional-license-information">Additional License information</h2>
-<p>In addition to one of the standard licenses above we also add the following addendum:</p>
-<pre><code>Software code created by U.S. Government employees is not subject to
-copyright in the United States (17 U.S.C. §105). The United State
-s/Department of Commerce reserve all rights to seek and obtain copyright
-protection in countries other than the United States for Software authored
-in its entirety by the Department of Commerce. To this end, the Department
-of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
-to use, copy, and create derivative works of the Software outside of the
-United States.</code></pre>
-</section>
-<section id="specifying-the-license-for-an-r-package" class="level2">
-<h2 class="anchored" data-anchor-id="specifying-the-license-for-an-r-package">Specifying the license for an R package</h2>
-<ul>
-<li>At the base level of your package, add a <code>LICENSE</code> text file. See for example, <a href="https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md">US government work + CC0-1.0</a>.</li>
-<li>Then in your <code>DESCRIPTION</code> file, put the line</li>
-</ul>
-<pre><code>License: file LICENSE</code></pre>
-<ul>
-<li>What is in that <code>LICENSE</code> file? If you are using a standard license, like GPL-2 or GPL-3, then you put that license in the file. Search the internet for the text. But CRAN might complain if you do that and are submitting to CRAN. In that case, you could just do</li>
-</ul>
-<pre><code>License: GPL-2</code></pre>
-</section>
-<section id="disclaimers" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimers">Disclaimers</h2>
-<p>Besides the license, code from federal agencies should also have a disclaimer that the code is ‘as is’ and the user assumes responsibility for its use.</p>
-<ul>
-<li>The Fisheries Integrated Toolbox has a <a href="https://github.com/nmfs-fish-tools/Resources/blob/master/Disclaimer.md">Disclaimer</a> for US Government products in its <a href="https://github.com/nmfs-fish-tools/Resources">Resources</a> repo.</li>
-<li>The repos on the EPA organization use a few different (albeit similar) disclaimers. <a href="https://github.com/USEPA/CMAQ#epa-disclaimer">Generic</a>, <a href="https://github.com/USEPA/useeior#disclaimer">GitHub specific</a>.</li>
-<li><a href="https://github.com/cisagov/Sparrow#legal-disclaimer">CISA repos</a> have a bit of an ad hoc disclaimer.</li>
-</ul>
-<p>Here is a standard disclaimer. Here tailored for a repository on GitHub.</p>
-<pre><code>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</code></pre>
+<section id="resources" class="level1">
+<h1>Resources</h1>
 
 
 </section>
@@ -481,11 +430,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/R_in_gov.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">R in Government</span>
+      <a href="../content/github_in_gov.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">GitHub in Government</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../content/licenses_gov.html" class="pagination-link">
+        <span class="nav-page-text">Licenses for Government Work</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
